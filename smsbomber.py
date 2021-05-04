@@ -2,14 +2,24 @@ import requests, random
 from time import sleep
 import urllib.request
 import colorama
+banner = """
+
+████████ ██   ██  █████   ██████ ██   ██ ███████ ██████  ██████      ██ ██      ██   ██ ███████ ██████  
+   ██    ██   ██ ██   ██ ██      ██  ██  ██      ██   ██ ██   ██     ██ ██      ██  ██  ██      ██   ██ 
+   ██    ███████ ███████ ██      █████   █████   ██████  ██████      ██ ██      █████   █████   ██████  
+   ██    ██   ██ ██   ██ ██      ██  ██  ██      ██   ██ ██   ██     ██ ██      ██  ██  ██      ██   ██ 
+   ██    ██   ██ ██   ██  ██████ ██   ██ ███████ ██   ██ ██   ██     ██ ███████ ██   ██ ███████ ██   ██ 
+                                                                                                                                                                                                         
+"""
+print(banner)
 """
 Kod ile yapacağınız herhangi bir işlemden ben sorumlu değilim. Bu riski göz önüne alarak kullanın.
- By THaCkErR İlKeR
+
 """
 
 colors=['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m']
 
-_phone = input('Enter Target Phone Number Without (+):')
+_phone = input('Hedef Kişinin Numarasını Girin (+):')
 _name = ''
 
 for x in range(12):
